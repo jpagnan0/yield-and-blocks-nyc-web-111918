@@ -12,6 +12,6 @@ hello_t(names) do |name|
   if name.start_with?("T")
     puts "Hi, #{name}"
   else  
-    puts "No"
+    puts "Hey! No block was given!"
   end
 end
